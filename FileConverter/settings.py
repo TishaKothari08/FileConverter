@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-gk929$x8$1w6%t#cz7*&0-g6fs8a(7x1hz+2$o*%$m#yxlbtc2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://fileconverter-dkch.onrender.com']
 
 
 # Application definition
