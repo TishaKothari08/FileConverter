@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Converter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2e3b4e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+        .options {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .options a {
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 32px;
+            font-size: 18px;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+        .options a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>File Converter</h1>
+</header>
+
+<div class="container">
+    <div class="options">
+        <h2>Choose a conversion type</h2>
+        <a href="/convert/word-to-pdf/">Convert Word to PDF</a>
+        <a href="/convert/pdf-to-word/">Convert PDF to Word</a>
+    </div>
+</div>
+
+</body>
+</html>
